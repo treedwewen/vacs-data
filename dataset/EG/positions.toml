@@ -27,23 +27,16 @@ facility_type = "GND"
 profile_id = "EG-Scottish"
 
 [[positions]]
-id = "EGAA_DEL"
-prefixes = ["EGAA"]
-frequency = "126.780"
-facility_type = "DEL"
-profile_id = "EG-Scottish"
-
-[[positions]]
 id = "EGAC_APP"
 prefixes = ["EGAC"]
-frequency = "130.850"
+frequency = "130.855"
 facility_type = "APP"
 profile_id = "EG-Scottish"
 
 [[positions]]
 id = "EGAC_F_APP"
 prefixes = ["EGAC"]
-frequency = "134.800"
+frequency = "134.805"
 facility_type = "APP"
 profile_id = "EG-Scottish"
 
@@ -288,7 +281,7 @@ profile_id = "EG-West_LAG"
 [[positions]]
 id = "EGGD_APP"
 prefixes = ["EGGD"]
-frequency = "125.650"
+frequency = "125.655"
 facility_type = "APP"
 profile_id = "EG-West_LAG"
 
@@ -302,7 +295,7 @@ profile_id = "EG-West_LAG"
 [[positions]]
 id = "EGGD_TWR"
 prefixes = ["EGGD"]
-frequency = "133.850"
+frequency = "133.855"
 facility_type = "TWR"
 profile_id = "EG-West_LAG"
 
@@ -1350,16 +1343,9 @@ facility_type = "CTR"
 profile_id = "EG-UK_ALL"
 
 [[positions]]
-id = "EGQL_APP"
+id = "EGQL_A_APP"
 prefixes = ["EGQL"]
 frequency = "126.505"
-facility_type = "APP"
-profile_id = "EG-Swanwick_Military"
-
-[[positions]]
-id = "EGQL_P_APP"
-prefixes = ["EGQL"]
-frequency = "123.300"
 facility_type = "APP"
 profile_id = "EG-Swanwick_Military"
 
@@ -1816,6 +1802,13 @@ id = "EGWC_TWR"
 prefixes = ["EGWC"]
 frequency = "128.655"
 facility_type = "TWR"
+profile_id = "EG-Swanwick_Military"
+
+[[positions]]
+id = "EGWC_GND"
+prefixes = ["EGWC"]
+frequency = "128.655"
+facility_type = "GND"
 profile_id = "EG-Swanwick_Military"
 
 [[positions]]
@@ -2681,13 +2674,6 @@ profile_id = "EG-AFIS_AGCS"
 id = "EGBD_R_TWR"
 prefixes = ["EGBD"]
 frequency = "118.355"
-facility_type = "TWR"
-profile_id = "EG-AFIS_AGCS"
-
-[[positions]]
-id = "EGBE_I_TWR"
-prefixes = ["EGBE"]
-frequency = "123.830"
 facility_type = "TWR"
 profile_id = "EG-AFIS_AGCS"
 

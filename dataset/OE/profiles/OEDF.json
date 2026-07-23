@@ -1,0 +1,110 @@
+{
+  "id": "OEDF",
+  "type": "Tabbed",
+  "tabs": [
+    {
+      "label": ["ADC"],
+      "page": {
+        "rows": 2,
+        "keys": [
+          {
+            "label": ["AIR W"],
+            "station_id": "OEDF_W_GND",
+            "color": "lagoon"
+          },
+          {
+            "label": ["GMC W"],
+            "station_id": "OEDF_W_TWR",
+            "color": "mint"
+          },
+          {
+            "label": ["AIR E"],
+            "station_id": "OEDF_W_TWR",
+            "color": "lagoon"
+          },
+          {
+            "label": ["GMC E"],
+            "station_id": "OEDF_E_GND",
+            "color": "mint"
+          },
+          {
+            "label": [""],
+            "color": "snow"
+          },
+          {
+            "label": [""],
+            "color": "snow"
+          },
+          {
+            "label": ["CTA"],
+            "station_id": "OEDF_APP",
+            "color": "cadet"
+          },
+          {
+            "label": ["TMA"],
+            "station_id": "OEDF_L_APP",
+            "color": "cadet"
+          },
+          {
+            "label": [""],
+            "color": "snow"
+          },
+          {
+            "label": ["JD NE"],
+            "station_id": "OEDF_L_APP",
+            "color": "cadet"
+          }
+        ]
+      }
+    },
+    {
+      "label": ["TMA+"],
+      "page": {
+        "rows": 3,
+        "keys": [
+          {
+            "label": ["JD", "NE", "245+"],
+            "station_id": "OEJD_NE_CTR",
+            "color": "lagoon"
+          },
+          {
+            "label": ["DMM", "CTA", "155-245"],
+            "station_id": "OEDF_APP",
+            "color": "mint"
+          },
+          {
+            "label": ["DMM", "TMA", "155-"],
+            "station_id": "OEDF_L_APP",
+            "color": "mint"
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": [""]
+          },
+          {
+            "label": ["BAH", "TMA", "170-"],
+            "station_id": "OBBI_APP",
+            "color": "azure"
+          },
+          {
+            "label": ["OBBB", "CS", "345+"],
+            "station_id": "OBBB_1_CTR",
+            "color": "cadet"
+          },
+          {
+            "label": ["OBBB", "CH", "295-345"],
+            "station_id": "OBBB_1_CTR",
+            "color": "cadet"
+          },
+          {
+            "label": ["OBBB", "CL", "295-"],
+            "station_id": "OBBB_CL_CTR",
+            "color": "cadet"
+          }
+        ]
+      }
+    }
+  ]
+}
